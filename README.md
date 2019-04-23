@@ -10,7 +10,7 @@ You can find [the original dataset](https://www.data.gouv.fr/fr/datasets/reserve
 This repository not only includes the said dataset (simplified version) under CSV format but also holds the code of the different plots and results that we have decided to show for explaining EU gold reserves' evolution.
 This repository gives the code of a [web application](https://bgrondin.github.io/DVP/) to interactively explore our results. 
 <br><br>
-Here is an example of a visualization -a heatmap- provided on the website : ![screenshot](https://raw.githubusercontent.com/Bgrondin/DVP/master/HeatmapPlot.PNG)
+Here is an example of a visualization -a heatmap- provided on the website : ![screenshot](https://github.com/Bgrondin/DVP/blob/master/HeatmapPlot.png)
 
 ## How to use the application
 The best way to use this application is by using [its online version](https://bgrondin.github.io/DVP/).
