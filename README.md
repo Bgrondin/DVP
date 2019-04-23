@@ -3,7 +3,7 @@
 ## Overview
 This is a project conducted by three IMT Mines Alès students for a DataViz class.
 <br>
-This projet aims to analyze the evolution from 2000 to 2014 of gold reserves within the European Union (E.U.), through data visualization techniques and methods.
+This project aims to analyze the evolution from 2000 to 2014 of gold reserves within the European Union (E.U.), through data visualization techniques and methods.
 <br><br>
 You can find [the original dataset](https://www.data.gouv.fr/fr/datasets/reserves-officielles-de-28-pays-europeens/) on a French government's website : data.gouv.fr.
 <br><br>
