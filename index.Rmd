@@ -36,11 +36,11 @@ library(plotly)
 ## Base de données
 Dans notre étude, nous avons utilisé une base de données qui se trouve sur [le site data.gouv.fr](https://www.data.gouv.fr/fr/datasets/reserves-officielles-de-28-pays-europeens). Cette base de données représente les réserves d'or de 28 pays européens au cours du temps (du 31 mars 2000 jusqu'au 31 mars 2014) regroupés dans un tableur Excel. Sous chaque pays, se déclinent 4 sous-colonnes : la première correspond aux réserves d'or en tonnes, la seconde colonne la conversion de ces réserves en millions de dollars américains, la troisième sa réserve de change en millions de dollars américains et la dernière le total en dollars américains des deux dernières colonnes.
 <br>
-Par la suite, on traitera un dataset simplifié qui ne gardera que la permière sous-colonne de chaque pays, c'est-à-dire sa réserve d'or en tonnes. Il se trouve sous format csv au nom de european-reserves-by-country-simplified.csv au [lien suivant](https://github.com/Bgrondin/DVP/blob/master/european-reserves-by-country-simplified.csv).
+Par la suite, on traitera un dataset simplifié qui ne gardera que la permière sous-colonne de chaque pays, c'est-à-dire sa réserve d'or en tonnes. Il se trouve sous format csv au nom de european-reserves-by-country-simplified.csv au [lien suivant](https://raw.githubusercontent.com/Bgrondin/DVP/master/european-reserves-by-country-simplified.csv).
 
 ```{r}
 # Import des données
-data <- read.table("https://github.com/Bgrondin/DVP/blob/master/european-reserves-by-country-simplified.csv", header = TRUE, sep = ";")
+data <- read.table("https://raw.githubusercontent.com/Bgrondin/DVP/master/european-reserves-by-country-simplified.csv", header = TRUE, sep = ";")
 
 # Visualisation de la base de données
 data %>% head()
