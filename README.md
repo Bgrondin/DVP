@@ -13,7 +13,7 @@ This repository gives the code of a [web application]() to interactively explore
 Here is an example of a visualization -a heatmap- provided on the website : ![screenshot](https://github.com/Bgrondin/DVP/blob/master/HeatmapPlot.png)
 
 ## How to use the application
-The best way to use this application is by using [its online version](https://bgrondin.github.io/DVP/).
+The best way to use this application is by using [its online version]().
 <br><br>
 You can also clone the whole repository to use this application locally. Please note that in order to use the Rmarkdown document, you would have to previously install the library epuRate with devtools :
 ```
